@@ -99,7 +99,6 @@ body::before {
     margin: 10px 0;
 }
 #tutorialText p strong {
-    display: block;
     margin-bottom: 5px;
 }
 textarea {

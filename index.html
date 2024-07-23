@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CapCut Auto-Captions to SRT</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="watermark">Dibuat oleh Zufar Rizal</div>
+        <div class="container">
+            <h1>CapCut Auto-Captions to SRT</h1>
+            <input type="file" id="fileInput" accept=".json" />
+            <button onclick="convertToSRT()">Convert</button>
+            <textarea id="output"></textarea>
+            <div class="buttons">
+                <button onclick="toLowerCase()">lower case</button>
+                <button onclick="toUpperCase()">UPPER CASE</button>
+                <button onclick="toAlternatingCase()">aLtErNaTiNg cAsE</button>
+                <button onclick="toTitleCase()">Title Case</button>
+                <button onclick="toInverseCase()">InVeRsE CaSe</button>
+                <button onclick="downloadSRT()">Download Text</button>
+                <button onclick="copyToClipboard()">Copy to Clipboard</button>
+                <button onclick="clearText()">Clear</button>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

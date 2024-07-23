@@ -51,7 +51,6 @@ button {
 
 body::before {
     content: "Dibuat oleh Zufar Rizal";
-    display: block;
     position: absolute;
     top: 10px;
     left: 10px;

@@ -5,25 +5,128 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CapCut Auto-Captions to SRT</title>
         <link rel="stylesheet" href="styles.css" />
+        <style>
+            .highlight-button {
+                background-color: #ffcc00;
+                color: #000;
+                font-weight: bold;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+            .highlight-button:hover {
+                background-color: #ff9900;
+            }
+            .blue-button {
+                background-color: #007bff;
+                color: #fff;
+                font-weight: bold;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+            .blue-button:hover {
+                background-color: #0056b3;
+            }
+            #tutorialText {
+                display: none;
+                margin-top: 20px;
+                background-color: #f9f9f9;
+                border: 1px solid #ddd;
+                padding: 15px;
+                border-radius: 5px;
+            }
+            #tutorialText p {
+                margin: 10px 0;
+            }
+            #tutorialText p strong {
+                display: block;
+                margin-bottom: 5px;
+            }
+            textarea {
+                width: 100%;
+                height: 200px;
+                resize: none;
+                margin-top: 20px;
+                padding: 10px;
+                box-sizing: border-box;
+                font-size: 16px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+            @media (max-width: 600px) {
+                textarea {
+                    height: 150px;
+                    font-size: 14px;
+                }
+            }
+        </style>
     </head>
     <body>
         <div class="watermark">Dibuat oleh Zufar Rizal</div>
         <div class="container">
             <h1>CapCut Auto-Captions to SRT</h1>
             <input type="file" id="fileInput" accept=".json" />
-            <button onclick="convertToSRT()">Convert</button>
-            <textarea id="output"></textarea>
+            <button class="blue-button" onclick="convertToSRT()">
+                Convert
+            </button>
+            <textarea id="output" readonly></textarea>
             <div class="buttons">
-                <button onclick="toLowerCase()">lower case</button>
-                <button onclick="toUpperCase()">UPPER CASE</button>
-                <button onclick="toAlternatingCase()">aLtErNaTiNg cAsE</button>
-                <button onclick="toTitleCase()">Title Case</button>
-                <button onclick="toInverseCase()">InVeRsE CaSe</button>
-                <button onclick="downloadSRT()">Download Text</button>
-                <button onclick="copyToClipboard()">Copy to Clipboard</button>
-                <button onclick="clearText()">Clear</button>
+                <button class="blue-button" onclick="toLowerCase()">
+                    lower case
+                </button>
+                <button class="blue-button" onclick="toUpperCase()">
+                    UPPER CASE
+                </button>
+                <button class="blue-button" onclick="toAlternatingCase()">
+                    aLtErNaTiNg cAsE
+                </button>
+                <button class="blue-button" onclick="toTitleCase()">
+                    Title Case
+                </button>
+                <button class="blue-button" onclick="toInverseCase()">
+                    InVeRsE CaSe
+                </button>
+                <button class="blue-button" onclick="downloadSRT()">
+                    Download Text
+                </button>
+                <button class="blue-button" onclick="copyToClipboard()">
+                    Copy to Clipboard
+                </button>
+                <button class="blue-button" onclick="clearText()">Clear</button>
+                <button class="highlight-button" onclick="showTutorial()">
+                    Tutorial
+                </button>
+            </div>
+            <div id="tutorialText">
+                <p>
+                    <strong
+                        >Search for a file named draft_content.json in your
+                        CapCut Projects folder. The default location is:</strong
+                    >
+                </p>
+                <p>
+                    <strong>On Windows:</strong
+                    ><br />C:\Users\user\AppData\Local\CapCut\User
+                    Data\Projects\com.lveditor.draft\
+                </p>
+                <p>
+                    <strong>On MacOS:</strong><br />The file is called
+                    draft_info.json and is located in:<br />/Users/user/Movies/CapCut/User
+                    Data/Projects/com.lveditor.draft
+                </p>
             </div>
         </div>
         <script src="scripts.js"></script>
+        <script>
+            function showTutorial() {
+                var tutorialText = document.getElementById("tutorialText");
+                tutorialText.style.display = "block";
+            }
+        </script>
     </body>
 </html>

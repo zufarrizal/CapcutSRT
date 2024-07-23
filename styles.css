@@ -51,6 +51,7 @@ button {
 
 body::before {
     content: "Dibuat oleh Zufar Rizal";
+    display: block;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -99,6 +100,7 @@ body::before {
     margin: 10px 0;
 }
 #tutorialText p strong {
+    display: block;
     margin-bottom: 5px;
 }
 textarea {

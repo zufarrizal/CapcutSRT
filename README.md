@@ -5,14 +5,13 @@
 ![GitHub forks](https://img.shields.io/github/forks/zufarrizal/CapcutSRT)
 ![GitHub issues](https://img.shields.io/github/issues/zufarrizal/CapcutSRT)
 
-CapcutSRT adalah sebuah alat untuk memudahkan pengubahan subtitle file SRT untuk digunakan di Capcut. Dengan CapcutSRT, Anda dapat mengonversi, mengedit, dan mengelola subtitle Anda dengan mudah dan efisien.
+CapcutSRT adalah sebuah alat untuk memudahkan pengubahan subtitle file json menjadi srt untuk digunakan diaplikasi lain. Dengan CapcutSRT, Anda dapat mengonversi, dan mengedit subtitle Anda dengan mudah dan efisien.
 
 ## Fitur Utama ✨
 
-- 🚀 **Konversi Cepat:** Konversi file SRT dengan cepat ke format yang kompatibel dengan Capcut.
-- ✂️ **Edit Mudah:** Edit subtitle langsung dalam aplikasi.
-- 🌐 **Kompatibilitas Tinggi:** Dukungan berbagai format subtitle untuk fleksibilitas maksimum.
-- 🔍 **Pratinjau Langsung:** Pratinjau subtitle sebelum diekspor untuk memastikan kualitas.
+-   🚀 **Konversi Cepat:** Konversi file json ke srt dengan cepat.
+-   ✂️ **Edit Mudah:** Edit subtitle langsung dalam aplikasi.
+-   🔍 **Pratinjau Langsung:** Pratinjau subtitle sebelum diekspor untuk memastikan kualitas.
 
 ## Instalasi 🛠
 
@@ -44,9 +43,25 @@ Ikuti langkah-langkah di bawah ini untuk menginstal CapcutSRT di komputer Anda:
 
 ## Penggunaan 📖
 
-1. **Memuat File SRT:** Pilih file SRT yang ingin Anda konversi atau edit.
-2. **Edit Subtitle:** Gunakan editor untuk membuat perubahan yang diperlukan.
-3. **Simpan dan Ekspor:** Simpan perubahan dan ekspor file untuk digunakan di Capcut.
+1. **Memuat File Json:** Pilih file json yang ingin Anda konversi jadi srt.
+2. **Edit Subtitle:** Gunakan tombol formating untuk membuat perubahan yang diperlukan.
+3. **Simpan dan Ekspor:** Simpan perubahan dan ekspor file subtitle.
+
+### Menemukan File Proyek CapCut
+
+Cari file bernama `draft_content.json` di folder Proyek CapCut Anda. Lokasi default adalah:
+
+-   **Pada Windows:**
+
+    ```
+    C:\Users\user\AppData\Local\CapCut\User Data\Projects\com.lveditor.draft\
+    ```
+
+-   **Pada MacOS:**
+    File tersebut disebut `draft_info.json` dan terletak di:
+    ```
+    /Users/user/Movies/CapCut/User Data/Projects/com.lveditor.draft
+    ```
 
 ## Kontribusi 🤝
 

@@ -52,14 +52,22 @@
                     >
                 </p>
                 <p>
-                    <strong>On Windows:</strong
-                    ><br />C:\Users\user\AppData\Local\CapCut\User
-                    Data\Projects\com.lveditor.draft\
+                    <strong>On Windows:</strong><br />
+                    <span
+                        onclick="copyText('C:\\Users\\user\\AppData\\Local\\CapCut\\User Data\\Projects\\com.lveditor.draft\\')"
+                        style="cursor: pointer; color: blue"
+                        >C:\Users\user\AppData\Local\CapCut\User
+                        Data\Projects\com.lveditor.draft\</span
+                    >
                 </p>
                 <p>
-                    <strong>On MacOS:</strong><br />The file is called
-                    draft_info.json and is located in:<br />/Users/user/Movies/CapCut/User
-                    Data/Projects/com.lveditor.draft
+                    <strong>On MacOS:</strong><br />
+                    <span
+                        onclick="copyText('/Users/user/Movies/CapCut/User Data/Projects/com.lveditor.draft')"
+                        style="cursor: pointer; color: blue"
+                        >/Users/user/Movies/CapCut/User
+                        Data/Projects/com.lveditor.draft</span
+                    >
                 </p>
             </div>
         </div>
@@ -68,6 +76,16 @@
             function showTutorial() {
                 var tutorialText = document.getElementById("tutorialText");
                 tutorialText.style.display = "block";
+            }
+
+            function copyText(text) {
+                var textarea = document.createElement("textarea");
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand("copy");
+                document.body.removeChild(textarea);
+                alert("Text copied to clipboard: " + text);
             }
         </script>
     </body>

@@ -22,6 +22,90 @@ body {
     -webkit-touch-callout: none;
 }
 
+@keyframes rgbBeam {
+    0% {
+        border-color: red;
+    }
+    8.33% {
+        border-color: orange;
+    }
+    16.66% {
+        border-color: yellow;
+    }
+    25% {
+        border-color: green;
+    }
+    33.33% {
+        border-color: cyan;
+    }
+    41.66% {
+        border-color: blue;
+    }
+    50% {
+        border-color: violet;
+    }
+    58.33% {
+        border-color: magenta;
+    }
+    66.66% {
+        border-color: pink;
+    }
+    75% {
+        border-color: purple;
+    }
+    83.33% {
+        border-color: indigo;
+    }
+    91.66% {
+        border-color: lime;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px 5px red;
+    }
+    8.33% {
+        box-shadow: 0 0 20px 5px orange;
+    }
+    16.66% {
+        box-shadow: 0 0 20px 5px yellow;
+    }
+    25% {
+        box-shadow: 0 0 20px 5px green;
+    }
+    33.33% {
+        box-shadow: 0 0 20px 5px cyan;
+    }
+    41.66% {
+        box-shadow: 0 0 20px 5px blue;
+    }
+    50% {
+        box-shadow: 0 0 20px 5px violet;
+    }
+    58.33% {
+        box-shadow: 0 0 20px 5px magenta;
+    }
+    66.66% {
+        box-shadow: 0 0 20px 5px pink;
+    }
+    75% {
+        box-shadow: 0 0 20px 5px purple;
+    }
+    83.33% {
+        box-shadow: 0 0 20px 5px indigo;
+    }
+    91.66% {
+        box-shadow: 0 0 20px 5px lime;
+    }
+    100% {
+        box-shadow: 0 0 20px 5px red;
+    }
+}
+
 .container {
     text-align: center;
     background-color: #fff;
@@ -30,6 +114,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 90%;
     margin: 0 auto;
+    border: 5px solid red; /* Initial border color */
+    animation: rgbBeam 5s infinite, glow 5s infinite;
 }
 
 .watermark {

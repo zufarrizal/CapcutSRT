@@ -82,5 +82,21 @@
             );
         </script>
         <script src="scripts.js"></script>
+        <script>
+            function showTutorial() {
+                var tutorialText = document.getElementById("tutorialText");
+                tutorialText.style.display = "block";
+            }
+
+            function copyText(text) {
+                var textarea = document.createElement("textarea");
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand("copy");
+                document.body.removeChild(textarea);
+                alert("Text copied to clipboard: " + text);
+            }
+        </script>
     </body>
 </html>

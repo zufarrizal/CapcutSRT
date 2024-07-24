@@ -62,8 +62,6 @@ button {
     border-radius: 5px;
     margin-top: 10px;
     font-weight: bold;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 button:hover {
@@ -85,7 +83,6 @@ button:hover {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 10px;
-    justify-content: center;
 }
 
 /* Textarea */

